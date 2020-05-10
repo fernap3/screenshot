@@ -25,15 +25,20 @@ console.log(fullscreenImg); // Blob {size: 12345, type: "image/png"}
 const rectImg = await window.screenshot({ 10, 10, 50, 50 });
 console.log(rectImg); // Blob {size: 12345, type: "image/png"}
 
-
 const rectJpeg = await window.screenshot({ 10, 10, 50, 50 }, "jpeg");
 console.log(rectJpeg); // Blob {size: 12345, type: "image/jpeg"}
-
 
 const fullscreenJpeg = await window.screenshot(null, "jpeg");
 console.log(rectJpeg); // Blob {size: 12345, type: "image/jpeg"}
 
 ```
+
+## Permissions
+TODO: Figure out interoperability with the Permissions API
+
+
+## Security and Privacy
+TODO
 
 ## Outstanding questions
 * Do we need to control cross-origin scripts’ use of this API?
