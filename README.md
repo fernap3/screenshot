@@ -4,6 +4,7 @@ This proposed API allows developers to programmatically capture an area of the w
 ## Use cases
 * User feedback systems that allow users to snapshot a section of a web app to send back to the developer
 * Allowing a user to quickly export a chart, dashboard, or other data visualization as an image to print or send to a colleague
+* Webbased [SCADA](https://en.wikipedia.org/wiki/SCADA) wants to take a screeenshot when a special situation is reached (eg. pressure in a pipe too high) to document the current situation. Possible reactions could be an upload to internal server, download to client.
 
 
 ## API design
