@@ -10,7 +10,7 @@ This proposed API allows developers to programmatically capture an area of the w
 ## API design
 
 ```ts
-Window.screenshot(bounds?: { x, y, width, height }, type: "png" | "jpeg" | "raw" = "png"): Promise<Blob>
+Window.screenshot(bounds?: { x, y, width, height }, type: string = "image/png"): Promise<Blob>
 ```
 
 If `bounds` is null or undefined, the entire window is captured.
